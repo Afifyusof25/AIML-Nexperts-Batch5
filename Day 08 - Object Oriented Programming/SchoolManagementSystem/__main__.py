@@ -10,18 +10,19 @@ while True:
     print("4 - to View Teachers")
     print("q - to Exit")
 
-    choice = input("enter choice:")
+    choice = input("enter choice:") # input function automatically only takes strings
+    # if 1 is entered, it will be "1"
 
-    if choice == 1:
+    if choice == "1":
         manager.add_student()
 
-    elif choice == 2:
+    elif choice == "2":
         manager.display_students()
 
-    elif choice == 3:
+    elif choice == "3":
         manager.add_teacher()
 
-    elif choice == 4:
+    elif choice == "4":
         manager.display_teachers()
     elif choice == "q":
         break

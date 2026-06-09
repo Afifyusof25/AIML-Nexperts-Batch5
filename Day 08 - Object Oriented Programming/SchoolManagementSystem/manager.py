@@ -20,14 +20,17 @@ def add_student():
 
     # add student to the list
     students.append(new_student)
-
-    print("Student {name} added successfully")
+    print("---"*5)
+    print(f"Student {name} added successfully")
+    print("---"*5)
 
 
 def display_students():
     for student in students:
         print("---------------------")
-        Student.get_details()
+        Student.get_details(student)
+
+
 
 
 

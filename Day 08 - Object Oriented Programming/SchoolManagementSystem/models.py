@@ -35,6 +35,8 @@ class Student(Person):
         print(f"Name: {self.Name}, Student ID: {self.StudentID}")
         return self.Name, self.StudentID
 
+# object.get_details()
+
 
 # Teacher
 class Teacher(Person):
