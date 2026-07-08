@@ -5,3 +5,12 @@
 .env
 
 .dlenv
+
+
+# Virtual environments
+.venv/
+tensorflow_env/
+.dlenv/
+
+# Environment files
+.env
